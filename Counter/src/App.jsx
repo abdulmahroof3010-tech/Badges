@@ -10,6 +10,12 @@ import TodoPage from './todos/todoPage'
 import DeletePage from './todos/DeletePage'
 import Trafic from './TraficLight/Trafic'
 import TraficLight from './TraficLight/TraficLight'
+import LightChange from './task/lightChnage'
+import LightSystem from './task/LightSystem'
+import CheckBox from './Checkbox/CheckBox'
+import Timer from './timer/Timer'
+import TimerFun from './timer/TimerFun'
+import StopWatch from './timer/StopWatch'
 
 
 function App() {
@@ -31,7 +37,13 @@ function App() {
         <Route path="/delete" element={<DeletePage />} />
       </Routes> */}
       {/* <Trafic /> */}
-      <TraficLight />
+      {/* <TraficLight /> */}
+      <LightChange />
+      {/* <LightSystem /> */}
+      {/* <CheckBox /> */}
+      {/* <Timer /> */}
+      {/* <TimerFun /> */}
+      {/* <StopWatch /> */}
   </>
   )
 }
