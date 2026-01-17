@@ -33,7 +33,7 @@ function Timer() {
     <div>
 
         <h1>Timer</h1>
-        <div>{count}</div>
+        <div>{count}</div>  
 
         <button onClick={handleForward}>Forward</button>
         <button onClick={handleStop}>Stop</button>

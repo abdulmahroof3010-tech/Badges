@@ -83,8 +83,7 @@ function ToDo() {
                   onClick={() => {
                     setEdit(lis.id);
                     setNewText(lis.text);
-                  }}
-                >
+                  }}>
                   Edit
                 </button>
 

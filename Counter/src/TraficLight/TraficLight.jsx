@@ -12,10 +12,10 @@ function TraficLight() {
         const timer=setTimeout(()=>{
             setIndex((prev)=>(prev+1)%lights.length)
         },lights[index].duration)
-
+            
          return ()=>clearTimeout(timer)
     },[index])
-  return (
+  return ( 
     <>
     <div style={{backgroundColor:"black",width:"55px",padding:"5px",marginLeft:700}}>  
         {lights.map((light,i)=>(
